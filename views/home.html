@@ -1,0 +1,25 @@
+<div class="jumbotron text-center">
+    <h1>Welcome!</h1>
+    <p>Are you looking for a classroom? <span class="text-danger">Book Today!</span> </p>
+    
+    <a ui-sref=".login" class="btn btn-primary">Login</a>
+    <a ui-sref=".signup" class="btn btn-danger">Register</a>
+    
+</div>
+
+ <!-- Carousel
+    ================================================== -->
+     <div ng-controller="CarouselDemoCtrl" id="slides_control">
+    <div>
+      <carousel interval="myInterval">
+        <slide ng-repeat="slide in slides" active="slide.active">
+          <img ng-src="{{slide.image}}">
+          <div class="carousel-caption">
+            <h4>Slide {{$index+1}}</h4>
+          </div>
+        </slide>
+      </carousel>
+    </div>
+  </div>
+  <!-- /.carousel -->
+
