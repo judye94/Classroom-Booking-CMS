@@ -1,2 +1,2 @@
-##Change code languages
-static/* linguist-vendored
+##Change code languages attributes
+*.css linguist-language=PHP
