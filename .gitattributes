@@ -1,4 +1,4 @@
 ##Change code language attributes to PHP
 * linguist-vendored
 *.js linguist-vendored=false
-*.php linguist-language=PHP
+*.html linguist-language=PHP
