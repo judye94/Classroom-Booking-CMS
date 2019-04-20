@@ -1,2 +1,2 @@
-##Change code language attributes
+##Change code language attributes to PHP
 *.css linguist-language=PHP
